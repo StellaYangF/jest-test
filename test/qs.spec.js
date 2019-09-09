@@ -7,6 +7,6 @@ describe('测试qs库是否合法', () => {
     });
 
     it('测试stringify 是否符合功能', () => {
-        expect(stringify({ name: "tom" })).toBe(["name=tom"])
+        expect(stringify({ name: "tom" })).toEqual(["name=tom"])
     });
 })
