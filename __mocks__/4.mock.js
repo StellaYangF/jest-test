@@ -1,4 +1,4 @@
-export const fectchUser = () => {
+export const fetchUser = () => {
     return new Promise(resolve => {
         resolve({ name: 'xj' });
     })
