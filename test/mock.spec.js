@@ -35,6 +35,7 @@ it('测试timer事件到达后 可以调用方法', () => {
     jest.advanceTimersByTime(4000);
     // expect(fn).toBeCalled();
     expect(fn).toBeCalledTimes(1);
+
 })
 
 // mock 函数 文件 某个第三方模块
